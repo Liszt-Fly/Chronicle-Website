@@ -8,6 +8,6 @@
     </div>
     <div class="text-center block mt-8">
         <img src="http://mikes.oss-cn-beijing.aliyuncs.com/uPic/Feb-15-2023-16-54-53.gif"
-            class="w-full sm:w-7/12 text-center inline drop-shadow-lg">
+            class="w-full sm:w-7/12 text-center inline drop-shadow-lg rounded-lg">
     </div>
 </template>

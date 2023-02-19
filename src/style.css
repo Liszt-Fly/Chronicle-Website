@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.cdnfonts.com/css/inter");
 :root {
   font-family: "Inter", sans-serif;
 }
@@ -8,4 +9,19 @@
   :root {
     font-family: "Inter var", sans-serif;
   }
+}
+
+.title {
+  @apply sm:text-5xl font-semibold mb-6 text-2xl tracking-wide;
+  font-family: "Inter";
+}
+.description {
+  @layer @apply w-120 text-neutral-900 text-center;
+}
+
+.icon {
+	width: 1em; height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
 }

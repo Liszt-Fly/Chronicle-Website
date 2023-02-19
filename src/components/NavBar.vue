@@ -13,9 +13,7 @@
 			<div class="item cursor-pointer hover:underline underline-offset-4 text-sm">Pricing</div>
 		</div>
 
-		<a class="btn-1 border-2 p-2 rounded text-sm " href="#">Download</a>
+		<a class="border-2 p-2 rounded text-sm text-violet-800" href="#download">Download</a>
 	</div>
 </template>
-<style lang="scss" scoped>
-@import url("../assets/mixin.scss");
-</style>
+<style lang="scss" scoped></style>

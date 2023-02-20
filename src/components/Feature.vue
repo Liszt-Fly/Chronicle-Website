@@ -9,7 +9,7 @@ const props = defineProps({
 		<div class="my-icon">
 			<i :class="item!.icon" class="text-3xl text-violet-800"></i>
 		</div>
-		<div class="small-title text-2xl mt-2 font-semibold">
+		<div class="small-title text-2xl mt-2 font-semibold capitalize">
 			{{ item!.title }}
 		</div>
 		<div class="text-neutral-600 mt-2">

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import NavBar from "./components/NavBar.vue";
 import Intro from "./components/Intro.vue";
-import Feature from "./components/feature.vue";
+import Feature from "./components/Feature.vue";
 import { features } from "./data";
 import Download from "./components/Download.vue";
 </script>

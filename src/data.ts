@@ -25,13 +25,13 @@ export let features: featureComponent[] = [
   },
   {
     icon: "bi-easel3-fill",
-    title: "Convert your markdown to Slides",
+    title: "Make presentations out of markdown",
     content:
       "In the process of taking notes, you only need to do a little configuration to create beautiful slideshows",
   },
   {
     icon: "bi-hand-index",
-    title: "Face to the feature",
+    title: "Futureproof",
     content:
       "The product is iteratively updated at a high speed, and the developers will patiently fix bugs and add more functions",
   },

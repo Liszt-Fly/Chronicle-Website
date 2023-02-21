@@ -30,7 +30,7 @@ export let features: featureComponent[] = [
       "In the process of taking notes, you only need to do a little configuration to create beautiful slideshows",
   },
   {
-    icon: "bi-hand-index",
+    icon: "bi-rocket-takeoff",
     title: "Futureproof",
     content:
       "The product is iteratively updated at a high speed, and the developers will patiently fix bugs and add more functions",

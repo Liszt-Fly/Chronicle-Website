@@ -5,7 +5,8 @@ const props = defineProps({
 
 </script>
 <template>
-	<div class="rounded-md mb-4 justify-self-center hover:bg-violet-100 p-4 text-justify">
+	<div
+		class="feature rounded-md mb-4 justify-self-center hover:bg-white hover:-translate-y-6 duration-300	 p-4 text-justify">
 		<div class="my-icon">
 			<i :class="item!.icon" class="text-3xl text-violet-800"></i>
 		</div>
@@ -17,4 +18,4 @@ const props = defineProps({
 		</div>
 	</div>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss"></style>

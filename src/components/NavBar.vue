@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 <template>
 	<div
-		class=" border-solid  h-16  w-full flex items-center md:justify-evenly md:pl-16 md:pr-16 justify-between pl-4 pr-4 fixed z-10 border-b bg-white">
+		class="nav-bar h-16  w-full flex items-center md:justify-evenly md:pl-16 md:pr-16 justify-between pl-4 pr-4 fixed z-10 border-b backdrop-blur hover:bg-white">
 
 		<div class="logo font-extrabold text-3xl  cursor-pointer">Chronicle</div>
 
@@ -13,7 +13,9 @@
 			<div class="item cursor-pointer hover:underline underline-offset-4 text-sm">Pricing</div>
 		</div>
 
-		<a class="border-2 p-2 rounded text-sm text-violet-800" href="#download">Download</a>
+		<a class="p-2 rounded text-sm bg-violet-500 text-slate-50 download-btn" href="#download">Download</a>
 	</div>
 </template>
-<style lang="scss" scoped></style>
+<style lang="scss">
+.nav-bar {}
+</style>

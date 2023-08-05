@@ -1,19 +1,24 @@
 @import url("https://fonts.cdnfonts.com/css/inter");
+
 :root {
   font-family: "Inter", sans-serif;
 }
+
 @supports (font-variation-settings: normal) {
   :root {
     font-family: "Inter var", sans-serif;
   }
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .title {
   @apply sm:text-5xl font-semibold mb-6 text-2xl tracking-wide;
   /* font-family: "Inter"; */
 }
+
 .description {
   @layer @apply w-120 text-neutral-900 text-center;
 }
@@ -26,34 +31,6 @@
   overflow: hidden;
 }
 
-.download-btn {
-  --timing: 2s;
-  transition: all 0.2s;
-  --width: 100px;
-  width: var(--width);
-  text-align: center;
-
-  &:hover {
-    background-image: linear-gradient(
-      to right,
-      rgb(250, 82, 82),
-      rgb(250, 82, 82) 16.65%,
-      rgb(190, 75, 219) 16.65%,
-      rgb(190, 75, 219) 33.3%,
-      rgb(76, 110, 245) 33.3%,
-      rgb(76, 110, 245) 49.95%,
-      rgb(64, 192, 87) 49.95%,
-      rgb(64, 192, 87) 66.6%,
-      rgb(250, 176, 5) 66.6%,
-      rgb(250, 176, 5) 83.25%,
-      rgb(253, 126, 20) 83.25%,
-      rgb(253, 126, 20) 100%,
-      rgb(250, 82, 82) 100%
-    );
-    animation: var(--timing) linear dance6123 infinite;
-    transform: scale(1.1) translateY(-1px);
-  }
-}
 
 @keyframes dance6123 {
   to {
